@@ -8,7 +8,7 @@ integer gcd(integer a, integer b)
     {
         return a + b;
     }
-    return gcd(b, b % a);
+    return gcd(b, b % a);  //Finds gcd, using recursion.
 }
 
 int main( int argv,char* argc[] )
