@@ -13,6 +13,6 @@ T factorial(T n) {
 		return 1;
 	}
 	else {
-		return n * factorial(n-1);
+		return n * factorial(n-1); //Calculates factorial, recursions is used here.
 	}
 }
